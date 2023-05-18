@@ -6,7 +6,7 @@ function validatePassword(event) {
     // Check if the entered password matches the expected password
     if (password === "banana") {
       // Redirect to the protected page
-      window.location.href = "about_me.html";
+      window.location.href = "advanced_programming.html";
     } else {
       alert("Incorrect password. Please try again.");
     }
