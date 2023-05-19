@@ -20,7 +20,7 @@
 .navbar {
     width: 95%;
     margin: auto;
-    padding: 35px 0;
+    padding: 40px 0;
     display: flex;
     align-items: right;
     justify-content: space-between;
@@ -29,7 +29,7 @@
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 12px;
     position: relative;
 }
 
@@ -37,7 +37,7 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar ul li ::after {
@@ -111,7 +111,7 @@
     max-width: 500px;
     border-radius: 5px;
     padding: 10px 20px;
-    margin: 300px auto;
+    margin: 200px auto;
     display: flex;
     align-items: center;
 }
@@ -134,4 +134,46 @@
     margin-top: 5px;
 }
 
+.return {
+    margin: 65px;
+    padding-left: 10px;
+}
 
+.return ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+    position: relative;
+}
+
+.return ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    font-size: 25px;
+}
+
+.return ul li ::after {
+    content: '';
+    height: 1.5px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left : 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.return ul li :hover::after {
+    width: 100%;
+}
+
+
+.my_name {
+    font-family: MajorMonoDisplay;
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top: 10px;
+}
